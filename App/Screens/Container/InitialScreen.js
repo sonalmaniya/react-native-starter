@@ -7,7 +7,7 @@ class InitialScreen extends Component {
   async componentDidMount() {
     const isLoggedIn = await UserService.isLoggedIn();
     if (!isLoggedIn) {
-      this.goToNextScreen('Home');
+      this.goToNextScreen('Login');
       return;
     }
     this.goToNextScreen('Home');
