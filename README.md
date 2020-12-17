@@ -24,4 +24,4 @@ A Boilerplate application for building REACT NATIVE APP (redux, saga, context, t
 
 ### Example
 
-![Example](images/preivew.gif)
+![Example](images/preview.gif)
